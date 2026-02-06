@@ -1,47 +1,30 @@
-🧠📘 Wiki Quiz App
-🌟 What is this project?
+# 🧠📘 Wiki Quiz App
 
-Wiki Quiz App is a smart web app that turns Wikipedia articles into quizzes using AI 🤖.
-Just paste a Wikipedia link, and the app creates quiz questions automatically.
+## 🌟 What is this project?
+Wiki Quiz App is a smart web app that turns Wikipedia articles into quizzes using AI 🤖.  
+Just paste a Wikipedia link and the app creates quiz questions automatically.
 
-🔍 How does it work?
+## 🔍 How does it work?
+1. Enter a Wikipedia article link  
+2. The app reads the article  
+3. AI generates quiz questions and answers  
+4. The quiz is saved and displayed  
+5. Past quizzes can be viewed anytime  
 
-You enter a Wikipedia article link
+## ✨ Main Features
+- 📝 Generate quizzes from Wikipedia links  
+- ❓ Multiple-choice questions  
+- ✅ Answers with explanations  
+- 📊 Difficulty levels (Easy / Medium / Hard)  
+- 🕘 Quiz history  
+- 🎨 Clean and simple UI  
 
-The app reads the article
+## 🛠️ Technology Used
+- 🐍 Backend: Python (FastAPI / Django)  
+- 🌐 Frontend: React / HTML / CSS  
+- 🗄️ Database: PostgreSQL  
+- 🤖 AI: Gemini (Free Tier) via LangChain  
+- 📄 Scraping: BeautifulSoup  
 
-AI creates quiz questions with answers
-
-The quiz is saved and shown on the screen
-
-You can view past quizzes anytime
-
-✨ Main Features
-
-📝 Generate quizzes from Wikipedia links
-
-❓ Multiple-choice questions
-
-✅ Correct answers with explanations
-
-📊 Easy / Medium / Hard difficulty levels
-
-🕘 View previously generated quizzes
-
-🎨 Clean and simple UI
-
-🛠️ Technology Used
-
-🐍 Backend: Python (FastAPI / Django)
-
-🌐 Frontend: React / HTML / CSS
-
-🗄️ Database: PostgreSQL
-
-🤖 AI Model: Gemini (Free Tier) via LangChain
-
-📄 Scraping: BeautifulSoup
-
-📚 Data Source
-
-Wikipedia articles (HTML scraping only)
+## 📚 Data Source
+- Wikipedia articles (HTML scraping only)
